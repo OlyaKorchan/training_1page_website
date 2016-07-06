@@ -1,0 +1,123 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+html, main {
+    max-width: 1920px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(header/header-background.png);
+    background-size: cover;
+    background-position: center;
+}
+.header-content {
+    padding-top: 6%;
+    text-align: center;
+}
+.header-text {
+    margin-top: 5%;
+}
+.bottom-image {
+    margin-top: 16%;
+}
+header h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+}
+header p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+#about {
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+.about-content {
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
+    padding-top: 3%;
+    color: rgb(60, 60, 60);
+}
+.border {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#about h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+}
+#about p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+#services {
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+.services-content {
+    padding-top: 6%;
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
+    z-index: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+#services h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 4%;
+    text-transform: uppercase;
+}
+.services-back {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: -2;
+}
+.services-border {
+    margin-top: 4%;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: -1;
+}
+#services p {
+    padding-top: 3%;
+}
